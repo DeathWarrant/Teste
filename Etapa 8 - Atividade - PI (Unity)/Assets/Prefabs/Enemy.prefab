@@ -38,7 +38,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4290420531881350}
   - component: {fileID: 195307526277042392}
-  - component: {fileID: 114134391779656804}
+  - component: {fileID: 114097066362998740}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -185,7 +185,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 044a7d6ff6ab8fe479e6a0911612e52f, type: 2}
+  - {fileID: 2100000, guid: 1fa63d38cc4a73b4bab70db24d66a4ca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -284,7 +284,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114134391779656804
+--- !u!114 &114097066362998740
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -292,11 +292,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1555218618299574}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e31ea0b15114b94a88f504a849bce8a, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c69055c79e50e441830fa3dcd6eab02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemySpeed: 5
-  player: {fileID: 0}
 --- !u!136 &136728808980853800
 CapsuleCollider:
   m_ObjectHideFlags: 1
